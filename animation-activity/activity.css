@@ -25,19 +25,32 @@ nav {
 
 .hamburger:hover ~ nav {
   opacity: 1;
+  
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {
+    transform:none
+  }
+  to {
+    transform: rotate(45deg) translateX(21px) translateY(23px)
+  }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {
+    transform:none
+  }
+  to {
+    transform: rotate(-45deg) translateX(26px) translateY(-25px);
+  }
 }
